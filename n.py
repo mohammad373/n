@@ -8,7 +8,8 @@ from colorama import Fore
 
 os.system("clear")
 my_list = []
-print(Fore.GREEN + "Hello . i`m H - NWWB ;)  . If Your Enter The exit While Is Bread ;) ")
+print(Fore.GREEN + "Hello . i`m H - NWWB ;)")
+time.sleep(2)
 while True:
     q = input(Fore.GREEN + "Enter Your List ==> ")
     my_list.append(q)
@@ -20,7 +21,8 @@ while True:
 def __1__():
     time.sleep(2)
     os.system("clear")
-    site = input(Fore.RED + "Pleass Enter Your Address Target ==>  ")
+    print(Fore.YELLOW + "Hello welcome Back ;) ")
+    site = input(Fore.BLUE + "\nPleass Enter Your Address Target ==>  ")
     if site == "" or None:
         time.sleep(2)
         print(Fore.RED + "Error : Your Target is None ;(")
